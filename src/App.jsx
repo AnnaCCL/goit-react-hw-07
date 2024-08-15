@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "modern-normalize";
 import "./App.css";
 import ContactList from "./components/ContactList/ContactList";
-import SearchBox from "./components/SearchBox/SearchBox";
+import SearchBox from "./components/Search/SearchBox";
 import ContactForm from "./components/ContactForm/ContactForm";
 import { useDispatch } from "react-redux";
 import { fetchContacts } from "./redux/contactsOps";
